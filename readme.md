@@ -1,28 +1,19 @@
-# Icf
+#Front-end
+Run `npm install` in the ./front directory to install all dependencies.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.6.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+Run `npm start` in the ./front directory. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `npm test` to execute the unit tests via [Jest].
 
-## Running end-to-end tests
+#Back-end
+I used Java 8 with spring-boot for develop the application, it isn't finished yet, but have many tests that I developet with TDD.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+To install the dependencies, use maven and  inside ./seven-money 
+mvn clean install
 
-## Further help
+To run the application, run inside ./seven-money
+mvn spring-boot:run 
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+All requests of front-end are going to `http://localhost:4200/`.
