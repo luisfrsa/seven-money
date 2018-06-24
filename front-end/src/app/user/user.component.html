@@ -1,0 +1,10 @@
+I know I should customize with CSS/CSS Lib, but I didn't have time...<br/>
+Load status:
+<ul>
+  <li>User status: <strong>{{user_status}} </strong></li>
+  <li>Location status: <strong>{{location_status}} </strong></li>
+  <li>TimePunches status: <strong>{{timePunches_status}}</strong> </li>
+</ul>
+<p *ngIf="user_status  && location_status  && timePunches_status">
+  Please, check back-end logs
+</p>
